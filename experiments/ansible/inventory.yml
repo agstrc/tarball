@@ -3,37 +3,29 @@ all:
   children:
     servers:
       hosts:
-        pc502.emulab.net:
-        pc410.emulab.net:
-        pc471.emulab.net:
-        pc405.emulab.net:
-        pc458.emulab.net:
-        pc407.emulab.net:
-        pc401.emulab.net:
-        pc501.emulab.net:
-        pc506.emulab.net:
-        pc491.emulab.net:
-        pc413.emulab.net:
-        pc442.emulab.net:
-        pc492.emulab.net:
-        pc412.emulab.net:
-        pc435.emulab.net:
-        pc484.emulab.net:
-        pc468.emulab.net:
-        pc479.emulab.net:
-        pc485.emulab.net:
-        pc510.emulab.net:
-        pc403.emulab.net:
-        pc505.emulab.net:
-        pc499.emulab.net:
-        pc486.emulab.net:
-        pc469.emulab.net:
-        pc488.emulab.net:
-        pc495.emulab.net:
-        pc511.emulab.net:
+        apt141.apt.emulab.net:
+        apt157.apt.emulab.net:
+        apt156.apt.emulab.net:
+        apt108.apt.emulab.net:
+        apt105.apt.emulab.net:
+        apt179.apt.emulab.net:
+        apt139.apt.emulab.net:
+        apt137.apt.emulab.net:
+        apt161.apt.emulab.net:
+        apt123.apt.emulab.net:
+        apt120.apt.emulab.net:
+        apt109.apt.emulab.net:
+        apt153.apt.emulab.net:
+        apt154.apt.emulab.net:
+        apt119.apt.emulab.net:
+        apt163.apt.emulab.net:
+        apt146.apt.emulab.net:
+        apt162.apt.emulab.net:
+        apt159.apt.emulab.net:
+        apt145.apt.emulab.net:
     clients:
       hosts:
-        pc434.emulab.net:
+        apt144.apt.emulab.net:
 
   vars:
     ansible_user: agst
