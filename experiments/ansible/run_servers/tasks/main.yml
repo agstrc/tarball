@@ -2,5 +2,5 @@
   - name: execute server nodes
     shell:
       cmd: nohup ./run-node.sh &
-      chdir: /users/jeffSD/byzcast/experiments/experiment/
+      chdir: /users/agst/byzcast/experiments/experiment/
     

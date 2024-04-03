@@ -3,39 +3,38 @@ all:
   children:
     servers:
       hosts:
-        hp189.utah.cloudlab.us:
-        hp154.utah.cloudlab.us:
-        hp196.utah.cloudlab.us:
-        hp021.utah.cloudlab.us:
-        hp186.utah.cloudlab.us:
-        hp026.utah.cloudlab.us:
-        hp012.utah.cloudlab.us:
-        hp125.utah.cloudlab.us:
-        hp032.utah.cloudlab.us:
-        hp006.utah.cloudlab.us:
-        hp123.utah.cloudlab.us:
-        hp037.utah.cloudlab.us:
-        hp126.utah.cloudlab.us:
-        hp157.utah.cloudlab.us:
-        hp178.utah.cloudlab.us:
-        hp017.utah.cloudlab.us:
-        hp182.utah.cloudlab.us:
-        hp141.utah.cloudlab.us:
-        hp169.utah.cloudlab.us:
-        hp147.utah.cloudlab.us:
-        hp131.utah.cloudlab.us:
-        hp179.utah.cloudlab.us:
-        hp023.utah.cloudlab.us:
-        hp195.utah.cloudlab.us:
-        hp011.utah.cloudlab.us:
-        hp014.utah.cloudlab.us:
-        hp149.utah.cloudlab.us:
-        hp016.utah.cloudlab.us:
-
+        pc502.emulab.net:
+        pc410.emulab.net:
+        pc471.emulab.net:
+        pc405.emulab.net:
+        pc458.emulab.net:
+        pc407.emulab.net:
+        pc401.emulab.net:
+        pc501.emulab.net:
+        pc506.emulab.net:
+        pc491.emulab.net:
+        pc413.emulab.net:
+        pc442.emulab.net:
+        pc492.emulab.net:
+        pc412.emulab.net:
+        pc435.emulab.net:
+        pc484.emulab.net:
+        pc468.emulab.net:
+        pc479.emulab.net:
+        pc485.emulab.net:
+        pc510.emulab.net:
+        pc403.emulab.net:
+        pc505.emulab.net:
+        pc499.emulab.net:
+        pc486.emulab.net:
+        pc469.emulab.net:
+        pc488.emulab.net:
+        pc495.emulab.net:
+        pc511.emulab.net:
     clients:
       hosts:
-        hp139.utah.cloudlab.us: 	
+        pc434.emulab.net:
 
   vars:
-    ansible_user: jeffSD
-    ansible_ssh_private_key_file: "~/.ssh/id_rsa"
+    ansible_user: agst
+    ansible_ssh_private_key_file: "/home/davi/.ssh/id_ed25519"
