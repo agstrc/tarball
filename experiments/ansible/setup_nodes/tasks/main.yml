@@ -4,7 +4,12 @@
       path: /users/agst/byzcast
       state: absent
 
-  - name: clone ByzCast on all hosts
+      # - name: Copy current workspace to destination
+      #   copy:
+      #     src: "{{ playbook_dir }}"
+      #     dest: /users/agst/byzcast/
+      #     remote_src: yes
+
     git:
       repo: https://github.com/agstrc/tarball
       dest: /users/agst/byzcast/
